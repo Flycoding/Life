@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.flyingh.life.OtherActivity"
+            android:name="com.flyingh.life.PauseActivity"
             android:label="@string/title_activity_other"
             android:theme="@android:style/Theme.Dialog" >
         </activity>

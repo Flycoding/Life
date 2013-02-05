@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void startActivity(View view) {
-		startActivity(new Intent(this, OtherActivity.class));
+		startActivity(new Intent(this, PauseActivity.class));
 	}
 
 	@Override
