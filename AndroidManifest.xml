@@ -27,6 +27,10 @@
             android:label="@string/title_activity_other"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
+        <activity
+            android:name="com.flyingh.life.StopActivity"
+            android:label="@string/title_activity_stop" >
+        </activity>
     </application>
 
 </manifest>
