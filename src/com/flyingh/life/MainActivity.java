@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		Log.i(TAG, "onCreate");
 	}
 
-	public void startActivity(View view) {
+	public void startPauseActivity(View view) {
 		startActivity(new Intent(this, PauseActivity.class));
 	}
 
