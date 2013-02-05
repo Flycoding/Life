@@ -22,6 +22,10 @@ public class MainActivity extends Activity {
 		startActivity(new Intent(this, PauseActivity.class));
 	}
 
+	public void startStopActivity(View view) {
+		startActivity(new Intent(this, StopActivity.class));
+	}
+
 	@Override
 	protected void onStart() {
 		super.onStart();
